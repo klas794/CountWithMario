@@ -1,0 +1,85 @@
+﻿
+body {
+    background-image: url('../img/maths.png');
+    font-family: Arial;
+}
+
+input, #type, select, option {
+    height: 2em;
+    vertical-align: middle;
+    padding: 0.1em 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+select {
+    padding-right: 0;
+}
+
+button, span {
+    font-family: Arial;
+}
+
+.box {
+    width: 50%;
+    background: magenta;
+    box-shadow: black 10px 10px;
+    padding: 1% 5% 3%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#lowerrow {
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+body:nth-child(1) {
+    margin-top: 20px;
+}
+
+h3 {
+}
+
+img {
+    max-width: 100%;
+}
+
+input, button {
+    margin: 2% 0;
+}
+
+
+input {
+    display: block;
+    width: 80%;
+}
+
+button {
+    background: black;
+    color: white;
+    border: 0;
+    padding: 5%;
+}
+
+#lowerrow img {
+    width: 40%;
+    margin: 25px auto 0;
+    position: relative;
+    top: -180px;
+    left: 100px;
+}
+
+#countbygroup {
+    float: right;
+    margin-top: 5px;
+}
+
+#answerbox {
+    background-color: cyan;
+}
+
+#type {
+    font-weight: bold;
+}
